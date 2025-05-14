@@ -14,7 +14,7 @@
         margin-inline: auto;
     }
 
-    div:nth-child(3) > div {
+    div:nth-child(3) {
         
         justify-content: end;
     }
@@ -24,4 +24,5 @@
     padding-block: 14px;
     border: solid 1px var(--stroke-color);
     border-inline: none;
+    justify-content: space-between;
 }
